@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <hr>
+    <div>
+        <form action="">
+            <label for="name">Usrename</label>
+            <input type="text" id="name" required><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" required><br>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <p>Hobbies:</p>
+            <input type="checkbox" id="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling">
+            <label for="traveling">Traveling</label>
+            <input type="checkbox" id="cooking">
+            <label for="cooking">Cooking</label><br><br>
+            <label for="country-list">Country List:</label>
+            <select name="country" id="country-list">
+                <option value="aa">Addis Ababa</option>
+                <option value="a">Afar</option>
+                <option value="s">SNNP</option>
+                <option value="o">Oromia</option>
+            </select><br><br>
+            <textarea name="feedback" id="fd" placeholder="Give us your feedback" cols="30" rows="10"></textarea><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
